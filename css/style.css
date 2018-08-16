@@ -1,18 +1,15 @@
 body {
 	background-color: #36393e;
 	padding-top: 4.125rem;
+	color: #99aab5;
 }
 
-div.jumbotron {
+.jumbotron {
 	background-color: #32393b;
 }
 
-h1, h4 {
+h1,h2 {
 	color: #ffffff;
-}
-
-p {
-	color: #99aab5;
 }
 
 p.jumbotron-text {
@@ -28,6 +25,72 @@ img#logo {
 	background-color: inherit;
 }
 
-.row {
-	padding-bottom: 15px;
+.commands > .cl-header {
+	margin: 0px -15px;
+	padding: 1.5rem
+}
+
+.commands > .row {
+	background-color: #1b1d1f;
+	margin: 0px 0px 1rem 0px;
+	border-radius: 0.25rem;
+}
+
+.commands > .row > div {
+	padding: 0.75rem;
+}
+
+.commands > .row > .cmd-name {
+	color: #ccd5da;
+}
+
+.commands > .row > .cmd-usage > .usage-parts {
+	display: inline-block;
+	margin-left: 3.5rem;
+}
+
+.commands > .row > .cmd-usage > .usage-parts > .usage-part {
+	display: block;
+}
+
+.commands > .row > .cmd-usage::before {
+	content: "Usage";
+	background-color: #5a646a;
+	color: #ccd5da;
+	font-size: 0.75rem;
+	padding: 0.125rem 0.25rem;
+	margin-right: 0.25rem;
+	border-radius: 0.25rem;
+	position: absolute;
+}
+
+@media (min-width: 768px) {
+	.commands > .row {
+		margin: 0px;
+		border-radius: 0px;
+	}
+
+	.commands > .row > div {
+		padding: 1.5rem;
+	}
+
+	.commands > .commands-header {
+		background-color: #000000;
+		color: #ffffff;
+		font-size: 1.25rem;
+	}	
+
+	.commands {
+		margin-bottom: 2rem;
+	}
+
+	.commands > .row > .cmd-usage::before {
+		content: "";
+		padding: 0px;
+		margin: 0px;
+	}
+
+	.commands > .row > .cmd-usage > .usage-parts {
+		margin-left: 0px;
+	}
 }
