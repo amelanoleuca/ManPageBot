@@ -50,6 +50,10 @@ h2 {
 	vertical-align: top;
 }
 
+a.btn {
+	width: 100%;
+}
+
 @media (min-width: 768px) {
 	.commands > .row {
 		margin-bottom: 0px;
@@ -82,5 +86,10 @@ h2 {
 		border-bottom-left-radius: 0.3rem;
 		border-bottom-right-radius: 0.3rem;
 		margin-bottom: 1rem;
+	}
+}
+@media (min-width: 768px) {
+	a.btn {
+		width: auto;
 	}
 }
