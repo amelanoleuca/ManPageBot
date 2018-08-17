@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>ManPage Bot</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/commands.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-md navbar-dark fixed-top"><a class="navbar-brand" href="/"><img id="logo" src="img/manpage.png">ManPage Bot</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+			<div
+				class="navbar-collapse collapse" id="navbar" aria-expanded="false">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active"><a class="nav-link" href="https://discordapp.com/oauth2/authorize?client_id=371357658009305101&scope=bot&permissions=52224">Invite ManPage Bot</a></li>
+					<li class="nav-item"><a class="nav-link" href="https://discord.gg/hU3wMfQ">Join ManPage Discord</a></li>
+				</ul>
+				</div>
+		</nav>
+		<main role="main">
+			<div class="container-fluid commands-container">
+				<div class="container commands">
+					<h2 class="cl-header display-4">Command List</h2>
+					<div class="row commands-header d-none d-md-flex">
+						<div class="col-md-3">Command Name</div>
+						<div class="col-md-5">Description</div>
+						<div class="col-md-4">Usage</div>
+					</div>
+					<div class="row">
+						<div class="cmd-name col-md-3">!help</div>
+						<div class="cmd-desc col-md-5">Display help message</div>
+						<div class="cmd-usage col-md-4">
+							<span class="usage-parts">
+								<span class="usage-part">!help</span>
+							</span>
+						</div>
+					</div>
+					<div class="row">
+						<div class="cmd-name col-md-3">!ping</div>
+						<div class="cmd-desc col-md-5">Pings the bot</div>
+						<div class="cmd-usage col-md-4">
+							<span class="usage-parts">
+								<span class="usage-part">!ping</span>
+							</span>
+						</div>
+					</div>
+					<div class="row">
+						<div class="cmd-name col-md-3">!info</div>
+						<div class="cmd-desc col-md-5">Display bot info</div>
+						<div class="cmd-usage col-md-4">
+							<span class="usage-parts">
+								<span class="usage-part">!info</span>
+							</span>
+						</div>
+					</div>
+					<div class="row">
+						<div class="cmd-name col-md-3">!setprefix</div>
+						<div class="cmd-desc col-md-5">Sets the bot command prefix for the server<br>(requires "Manage Server" permission)</div>
+						<div class="cmd-usage col-md-4">
+							<span class="usage-parts">
+								<span class="usage-part">!setprefix $</span>
+								<span class="usage-part">!setprefix /</span>
+							</span>
+						</div>
+					</div>
+					<div class="row">
+						<div class="cmd-name col-md-3">!man</div>
+						<div class="cmd-desc col-md-5">Gets manual page for specified command</div>
+						<div class="cmd-usage col-md-4">
+							<span class="usage-parts">
+								<span class="usage-part">!man cd</span>
+								<span class="usage-part">!man ls</span>
+								<span class="usage-part">!man passwd</span>
+							</span>
+						</div>
+					</div>
+					<a class="btn btn-primary btn-lg" href="/">
+						<i class="fa fa-angle-left"></i>
+						Go back
+					</a>
+				</div>
+			</div>
+		</main>
+		<footer class="container">
+			<p>Ailuropoda Melanoleuca#0068</p>
+		</footer>
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
