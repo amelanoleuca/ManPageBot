@@ -27,13 +27,14 @@ img#logo {
 
 .commands > .cl-header {
 	margin: 0px -15px;
-	padding: 1.5rem
+	padding: 1.5rem;
+	padding-top: 0px;
 }
 
 .commands > .row {
 	background-color: #1b1d1f;
 	margin: 0px 0px 1rem 0px;
-	border-radius: 0.25rem;
+	border-radius: 0.3rem;
 }
 
 .commands > .row > div {
@@ -66,7 +67,7 @@ img#logo {
 
 @media (min-width: 768px) {
 	.commands > .row {
-		margin: 0px;
+		margin-bottom: 0px;
 		border-radius: 0px;
 	}
 
@@ -75,9 +76,11 @@ img#logo {
 	}
 
 	.commands > .commands-header {
-		background-color: #000000;
+		background-color: #18191a;
 		color: #ffffff;
 		font-size: 1.25rem;
+		border-top-left-radius: 0.3rem;
+		border-top-right-radius: 0.3rem;
 	}	
 
 	.commands {
@@ -92,5 +95,10 @@ img#logo {
 
 	.commands > .row > .cmd-usage > .usage-parts {
 		margin-left: 0px;
+	}
+
+	.commands > .row:last-child {
+		border-bottom-left-radius: 0.3rem;
+		border-bottom-right-radius: 0.3rem;
 	}
 }
