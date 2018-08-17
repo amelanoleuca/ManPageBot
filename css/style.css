@@ -47,7 +47,6 @@ img#logo {
 
 .commands > .row > .cmd-usage > .usage-parts {
 	display: inline-block;
-	margin-left: 3.5rem;
 }
 
 .commands > .row > .cmd-usage > .usage-parts > .usage-part {
@@ -62,7 +61,7 @@ img#logo {
 	padding: 0.125rem 0.25rem;
 	margin-right: 0.25rem;
 	border-radius: 0.25rem;
-	position: absolute;
+	vertical-align: top;
 }
 
 @media (min-width: 768px) {
