@@ -33,7 +33,8 @@ img#logo {
 
 .commands > .row {
 	background-color: #1b1d1f;
-	margin: 0px 0px 1rem 0px;
+	margin: 0px;
+	margin-bottom: 1rem;
 	border-radius: 0.3rem;
 }
 
