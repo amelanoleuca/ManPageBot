@@ -16,3 +16,9 @@ img#logo {
 main > .jumbotron,.commands-container {
 	background-color: #32393b;
 }
+
+.navbar-dark .navbar-nav .active > .nav-link {
+	background-color: #2a2d32;
+	border-radius: 0.3rem;
+	font-weight: 600;
+}
