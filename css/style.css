@@ -13,8 +13,8 @@ img#logo {
 	background-color: inherit;
 }
 
-main > .jumbotron,.commands-container {
-	background-color: #32393b;
+.jumbotron,.commands-container {
+	background-color: #2a2d32;
 }
 
 .navbar-dark .navbar-nav .active > .nav-link {
