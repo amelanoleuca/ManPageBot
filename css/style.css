@@ -11,6 +11,7 @@ img#logo {
 
 .navbar {
 	background-color: inherit;
+	padding-bottom: 0;
 }
 
 .jumbotron,.commands-container {
