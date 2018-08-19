@@ -11,14 +11,14 @@ h2 {
 }
 
 .commands > .cl-header {
-	margin: 0px -15px;
+	margin: 0 -15px;
 	padding: 1.5rem;
-	padding-top: 0px;
+	padding-top: 0;
 }
 
 .commands > .row {
 	background-color: #1b1d1f;
-	margin: 0px;
+	margin: 0;
 	margin-bottom: 1rem;
 	border-radius: 0.3rem;
 }
@@ -56,8 +56,8 @@ a.btn {
 
 @media (min-width: 768px) {
 	.commands > .row {
-		margin-bottom: 0px;
-		border-radius: 0px;
+		margin-bottom: 0;
+		border-radius: 0;
 	}
 
 	.commands > .row > div {
@@ -74,12 +74,12 @@ a.btn {
 
 	.commands > .row > .cmd-usage::before {
 		content: "";
-		padding: 0px;
-		margin: 0px;
+		padding: 0;
+		margin: 0;
 	}
 
 	.commands > .row > .cmd-usage > .usage-parts {
-		margin-left: 0px;
+		margin-left: 0;
 	}
 
 	.commands > .row:nth-last-child(2) {
