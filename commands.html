@@ -24,7 +24,7 @@
 				<div class="container commands">
 					<h2 class="cl-header display-4">Command List</h2>
 					<div class="row commands-header d-none d-md-flex">
-						<div class="col-md-3">Command Name</div>
+						<div class="col-md-3">Command</div>
 						<div class="col-md-5">Description</div>
 						<div class="col-md-4">Usage</div>
 					</div>
@@ -66,13 +66,34 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="cmd-name col-md-3">!man</div>
-						<div class="cmd-desc col-md-5">Gets manual page for specified command</div>
+						<div class="cmd-name col-md-3">!man [distro] [section] command</div>
+						<div class="cmd-desc col-md-5">Gets Linux manual page for specified command, optionally specify distro and section number</div>
 						<div class="cmd-usage col-md-4">
 							<span class="usage-parts">
 								<span class="usage-part">!man cd</span>
-								<span class="usage-part">!man ls</span>
-								<span class="usage-part">!man passwd</span>
+								<span class="usage-part">!man 3tcl cat</span>
+								<span class="usage-part">!man ubuntu-bionic ls</span>
+								<span class="usage-part">!man ubuntu ls</span>
+							</span>
+						</div>
+					</div>
+					<div class="row">
+						<div class="cmd-name col-md-3">!winman command</div>
+						<div class="cmd-desc col-md-5">Gets Windows CMD manual page for specified command</div>
+						<div class="cmd-usage col-md-4">
+							<span class="usage-parts">
+								<span class="usage-part">!winman cd</span>
+								<span class="usage-part">!winman dir</span>
+							</span>
+						</div>
+					</div>
+					<div class="row">
+						<div class="cmd-name col-md-3">!poshman command</div>
+						<div class="cmd-desc col-md-5">Gets Windows PowerShell manual page for specified command</div>
+						<div class="cmd-usage col-md-4">
+							<span class="usage-parts">
+								<span class="usage-part">!poshman Get-ChildItem</span>
+								<span class="usage-part">!poshman Get-Help</span>
 							</span>
 						</div>
 					</div>
